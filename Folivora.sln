@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Folivora", "Folivora\Folivora.csproj", "{91A8B6E4-A996-44A6-B50E-F5986CC4BB2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Folivora", "Folivora\Folivora.csproj", "{91A8B6E4-A996-44A6-B50E-F5986CC4BB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Folivora.Tests", "Folivora.Tests\Folivora.Tests.csproj", "{DF9097B2-C4AA-4B6C-A70F-22F3345D38F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{91A8B6E4-A996-44A6-B50E-F5986CC4BB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A8B6E4-A996-44A6-B50E-F5986CC4BB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A8B6E4-A996-44A6-B50E-F5986CC4BB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9097B2-C4AA-4B6C-A70F-22F3345D38F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9097B2-C4AA-4B6C-A70F-22F3345D38F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9097B2-C4AA-4B6C-A70F-22F3345D38F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9097B2-C4AA-4B6C-A70F-22F3345D38F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

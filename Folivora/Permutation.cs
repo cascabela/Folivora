@@ -2,7 +2,11 @@
 
 namespace Folivora
 {
-    public class Class1
+    public class Permutation
     {
+        public static int PredictNext(params int[] permutation)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
