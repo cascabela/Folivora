@@ -30,6 +30,39 @@ namespace Folivora.Tests
             AssertPrediction(64, 4, 9, 16, 25, 36, 49);
             AssertPrediction(65, 2, 5, 10, 17, 26, 37, 50);
             AssertPrediction(216, 1, 8, 27, 64, 125);
+            // n(n-2)
+            AssertPrediction(48, -1, 0, 3, 8, 15, 24, 35);
+            // n(n-1)(n-2)(n-3)
+            AssertPrediction(1680, 0, 0, 0, 24, 120, 360, 840);
+        }
+
+        [TestMethod]
+        public void TestGeometricSequence()
+        {
+            AssertPrediction(64, 1, 2, 4, 8, 16, 32);
+            AssertPrediction(486, 2, 6, 18, 54, 162);
+            AssertPrediction(64, -2, 4, -8, 16, -32);
+        }
+
+        [TestMethod]
+        public void TestPrimes()
+        {
+            AssertPrediction(23, 2, 3, 5, 7, 11, 13, 17, 19);
+        }
+
+        [TestMethod]
+        public void TestFactorial()
+        {
+            AssertPrediction(40320, 1, 2, 6, 24, 120, 720, 5040);
+        }
+
+        [TestMethod]
+        public void TestRepeating()
+        {
+            AssertPrediction(0, 1, 0, 1, 0, 1);
+            AssertPrediction(0, 0, 1, 0, -1, 0, 1, 0, -1);
+            AssertPrediction(3, 1, 2, 3, 1, 2, 3, 1, 2);
+            AssertPrediction(7, 7, 9, 3, 1, 7, 9, 3, 1);
         }
 
         [TestMethod]
