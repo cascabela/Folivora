@@ -87,7 +87,7 @@ namespace Folivora.Tests
             AssertPrediction(14, 1, 10, 2, 11, 3, 12, 4, 13, 5);
         }
 
-        void AssertPrediction(int expected, params int[] array)
+        void AssertPrediction(double expected, params double[] array)
         {
             Assert.AreEqual(expected, Permutation.PredictNext(array));
         }
