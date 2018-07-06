@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="PermutationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CaseTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
